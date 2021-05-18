@@ -1,0 +1,107 @@
+.container-fluid{
+    padding: 0;
+    margin: 0;
+    width: 100%;
+}
+.header-top{
+    background-color: #0f1111;
+    width: 100%;
+    height: 60px;
+    position: fixed;
+    top: 0px;
+    z-index: 1000;
+}
+.col-md-2, .col-md-7, .col-md-3{
+    height: 60px;
+    color: white;
+    min-width: auto;
+}
+.col-md-3{
+    min-width: auto;
+}
+input{
+    min-width: 80%;
+    border-radius: 3px;
+    padding: 5px;
+    margin-bottom: 1px
+}
+.img-fluid{
+    height: 40px;
+}
+.your{
+    font-size: 0.8em;
+    margin-left: 50%;
+    margin: bottom 2%;
+    position: absolute;
+    top: 58%;
+}
+.sign{
+    font-size: 0.8em;
+    margin-left: 10%;
+    margin: bottom 2%;
+    position: absolute;
+    top: 8%;
+}
+.returns{
+    font-size: 0.8em;
+    margin-left: 7%;
+    margin: bottom 2%;
+    position: absolute;
+    top: 8%;
+}
+.hello{
+    height: 5px;
+}
+select{
+    width: 7%;
+    margin: 0;
+    padding: 4px;
+    margin-bottom: 5px; 
+    background-color: rgb(228, 228, 228);
+}
+.select-language{
+    width: 10%;
+}
+.fa-search{
+    padding:10px 15px;
+    border-top-right-radius: 3px;
+    border-bottom-left-radius: 3px;
+}
+.fa-search:hover{
+    color: rgb(119, 90, 36);
+}
+.search{
+    margin-top: 5px;
+    margin-bottom: 40px;
+    margin-left: 0%;
+}
+.cart{
+    padding-bottom: 10px;
+    margin-bottom: 0;
+    height: 80p;
+}
+img:hover{
+border: 1px solid white;
+}
+span:hover{
+    border: 1px solid white;
+}
+/*********** Header top end ***************/
+
+/************ Header bottom ***************/
+.header-bottom{
+    min-width: auto;
+    margin-top: 60px;
+    background-color: #1a2330;
+    margin-bottom: 0px;
+    height: 40px;
+}
+a{
+    color: white;
+    padding: 5px 10px;
+    font-size: 00.9em;
+    text-decoration: none;
+}
+a:hover{
+    border: 1px solid white;
+}
